@@ -43,6 +43,20 @@ there are few missing value as XNA in CODE_GENDER feature. <br>
 a lot missing value in ORGANIZATION_TYPE. <br>
 <img width="698" alt="image" src="https://user-images.githubusercontent.com/12759769/185777035-602fba8a-18b5-4c1d-9a99-ce0d95a6c04f.png">
 
-I'm gonna drop observation with missing value in CODE_GENDER, and impute another missing value using KNNImputer <br>
+There are missing value in several feature : <br>
+<img width="361" alt="image" src="https://user-images.githubusercontent.com/12759769/185788349-f3ce58e0-c417-474e-b347-2410e81b228f.png">
+
+I'm gonna drop observation with missing value in CODE_GENDER, and change XNA into nan value.<br>
+For another missing value, i have two ways to handle that :
+1. Let it be null and use model that can handle null values such as LightGBM
+2. Impute the missing value using KNNImputer
 
 #### Some of numerical features plot : <br>
+
+DAYS_EMPLOYED to AMT_INCOME_TOTAL plot : <br>
+<img width="803" alt="image" src="https://user-images.githubusercontent.com/12759769/185788626-5f86a70c-4f35-46dd-9026-a5aa61940717.png">
+
+There are value that become outlier in DAYS_EMPLOYED because the person doesn't have a job currently
+
+ORGANIZATION_TYPE to AMT_INCOME_TOTAL plot : <br>
+<img width="791" alt="image" src="https://user-images.githubusercontent.com/12759769/185788730-46423a12-ff85-4f25-95f8-c495235c5887.png">
