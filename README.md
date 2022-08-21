@@ -17,4 +17,17 @@ Data distribution by label : <br>
 0 : All other cases <br>
 1 : Client with late payment
 
-We got Imbalanced Data distribution, so we can do Oversampling or Undersampling when create model. 
+We got Imbalanced Data distribution, so we can do Oversampling/Undersampling when create model. 
+
+Some of categorical features plot : <br>
+<img width="718" alt="image" src="https://user-images.githubusercontent.com/12759769/185776092-6e21bed9-7446-4b45-aee3-26e8619362bc.png">
+<img width="707" alt="image" src="https://user-images.githubusercontent.com/12759769/185776113-163fd615-2634-4f34-8466-067098ac7516.png">
+<img width="698" alt="image" src="https://user-images.githubusercontent.com/12759769/185776137-ad765c05-6959-405a-8a51-94c2c139b360.png">
+<img width="719" alt="image" src="https://user-images.githubusercontent.com/12759769/185776149-55627859-22bc-4a08-b4fe-1600d5197d4b.png">
+
+We got some rare values in categorical features, I got 3 ways to handle this type of data.
+1. Binning rare category into new category
+2. Encode using TargetCategory method
+3. Encode using One-Hot Encoding method
+
+I'll choose the 3rd way to handle this rare values
