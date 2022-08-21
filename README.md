@@ -6,12 +6,6 @@ This is my Analysis and Modelling for Kaggle Home Credit Dataset.
 ## EDA Home Credit
 
 Dataset Shape : <br>
-Train data shape :  (307511, 122)
-Test data shape :  (48744, 121)
-Bureau data shape :  (1716428, 17)
-Bureau_Balance data shape :  (27299925, 3)
-Credit Card Balance data shape :  (3840312, 23)
-Installments Payments data shape :  (13605401, 8)
-POS CASH Balance data shape :  (10001358, 8)
-Previous Application data shape :  (1670214, 37)
+<img width="292" alt="image" src="https://user-images.githubusercontent.com/12759769/185772790-e4c009e2-f541-439c-bb93-9119f7f13776.png">
+
 
