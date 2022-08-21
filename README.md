@@ -40,4 +40,4 @@ there are few missing value as XNA in CODE_GENDER feature. <br>
 a lot missing value in ORGANIZATION_TYPE. <br>
 <img width="698" alt="image" src="https://user-images.githubusercontent.com/12759769/185777035-602fba8a-18b5-4c1d-9a99-ce0d95a6c04f.png">
 
-I'm gonna drop observation with missing value in COODE_GENDER, and impute another missing value using KNNImputer <br>
+I'm gonna drop observation with missing value in CODE_GENDER, and impute another missing value using KNNImputer <br>
