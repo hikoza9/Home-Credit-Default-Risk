@@ -3,6 +3,8 @@ Kaggle Competition Dataset
 
 This is my Analysis and Modelling for Kaggle Home Credit Dataset.
 
+Dataset : https://www.kaggle.com/competitions/home-credit-default-risk/data?select=application_train.csv
+
 ## EDA Home Credit
 
 #### Dataset Shape : <br>
@@ -10,6 +12,7 @@ This is my Analysis and Modelling for Kaggle Home Credit Dataset.
 
 #### Train data Statistik : <br>
 <img width="829" alt="image" src="https://user-images.githubusercontent.com/12759769/185774024-8195f149-4cce-4dac-8184-04b573c9eaa2.png">
+<img width="820" alt="image" src="https://user-images.githubusercontent.com/12759769/185787161-aa716174-1025-4b5d-be29-1b42b38e4be3.png">
 
 #### Data distribution by label : <br>
 <img width="569" alt="image" src="https://user-images.githubusercontent.com/12759769/185774052-5fecc962-7396-4e95-9d68-105b6dff76e8.png">
@@ -41,3 +44,5 @@ a lot missing value in ORGANIZATION_TYPE. <br>
 <img width="698" alt="image" src="https://user-images.githubusercontent.com/12759769/185777035-602fba8a-18b5-4c1d-9a99-ce0d95a6c04f.png">
 
 I'm gonna drop observation with missing value in CODE_GENDER, and impute another missing value using KNNImputer <br>
+
+#### Some of numerical features plot : <br>
